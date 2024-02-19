@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 
 // Define your proxy route
-const domain = process.env.CYCLIC_URL || 'https://excited-teddy-fish.cyclic.app'; // Using environment variable for domain, defaulting to the provided domain
+const domain = process.env.CYCLIC_URL; // Using environment variable for domain, defaulting to the provided domain
 const proxyOptions = {
   target: domain,
   changeOrigin: true,
