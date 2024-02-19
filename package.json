@@ -1,7 +1,15 @@
 {
+  "name": "projs",
+  "version": "1.0.0",
+  "description": "A simple Node.js proxy server with URL modification",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "axios": "^0.24.0",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6"
+    "express": "^4.17.2",
+    "http-proxy-middleware": "^2.3.1"
   }
 }
